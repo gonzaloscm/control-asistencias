@@ -25,4 +25,33 @@ public class EstudianteTest {
                 .setNombre("")
                 .build();
     }
+
+    @Test
+    public void registrarEstudianteNull() throws Exception{
+        exception.expect(BusinessException.class);
+        exception.expectMessage(Estudiante.NOMBRE_ESTUDIANTE_REQUERIDO);
+        Estudiante estudiante = new Estudiante.EstudianteBuilder()
+                .build();
+    }
+
+    @Test
+    public void registrarSexoEstudiante() throws Exception{
+        exception.expect(BusinessException.class);
+        exception.expectMessage(Estudiante.SEXO_ESTUDIANTE_VACIO);
+        Estudiante estudiante = new Estudiante.EstudianteBuilder()
+                .setNombre("Gonzalo")
+                .setSexo("")
+                .build();
+    }
+
+    @Test
+    public void registrarSexoEstudianteNull() throws Exception{
+        exception.expect(BusinessException.class);
+        exception.expectMessage(Estudiante.SEXO_ESTUDIANTE_REQUERIDO);
+        Estudiante estudiante = new Estudiante.EstudianteBuilder()
+                .setNombre("Damian")
+                .build();
+    }
+
+
 }
