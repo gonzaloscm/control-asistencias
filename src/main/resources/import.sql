@@ -1,0 +1,10 @@
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (1,'Gonzalo', 'masculino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (2,'Damian', 'masculino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (3,'Ronaldo', 'masculino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (4,'Syll', 'femenino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (5,'Vanessa', 'femenino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (6,'Diana', 'femenino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (7,'Fiorella', 'femenino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (8,'Diego', 'masculino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (9,'Marco', 'masculino');
+INSERT INTO estudiante (id_estudiante, nombre, sexo) values (10,'Maria', 'femenino');

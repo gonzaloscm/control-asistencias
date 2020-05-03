@@ -57,7 +57,7 @@ public class Movimiento {
             ValidatorMovimiento.estudianteNoExiste(estudiante,VALIDAR_ESTUDIANTE);
             //ValidatorMovimiento.estudianteVacio(estudiante.getNombre(),ESTUDIANTE_VACIO);
             movimiento.estudiante = this.estudiante;
-            ValidatorMovimiento.culminacionDeClases(fechaIngreso,VALIDAR_ASISTENCIAS);
+            //ValidatorMovimiento.culminacionDeClases(fechaIngreso,VALIDAR_ASISTENCIAS);
             movimiento.fechaIngreso = this.fechaIngreso;
             movimiento.materia = this.materia;
             return movimiento;

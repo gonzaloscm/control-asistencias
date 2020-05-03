@@ -23,10 +23,10 @@ public class ValidatorMovimiento {
         }
     }
 
-    public static void culminacionDeClases(Date fechaIngreso, String mensaje) throws BusinessException {
-        String fechaCulminacion = "15/06/2020";
+    //public static void culminacionDeClases(Date fechaIngreso, String mensaje) throws BusinessException {
+        //String fechaCulminacion = "15/06/2020";
         //if (fechaIngreso.before(fechaCulminacion)) {
            // throw new BusinessException(mensaje);
         //}
-    }
+    //}
 }
